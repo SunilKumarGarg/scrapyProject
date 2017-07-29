@@ -1,0 +1,34 @@
+{
+    "siteMap":[
+                    {
+                        "href":"http://webscraper.io/test-sites/e-commerce/allinone",                        
+                        "ItemContainer":"div.thumbnail",
+                        "Item": 
+                        {
+                            "Name":"a.title::text",
+                            "Price":"h4.pull-right.price::text"
+                        },
+                        "Repeat":"No"
+                    },
+                    {
+                        "href":"a.category-link::attr(href)",
+                        "ItemContainer":"div.thumbnail",
+                        "Item": 
+                        {
+                            "Name":"a.title::text",
+                            "Price":"h4.pull-right.price::text"
+                        },
+                        "Repeat":"Yes"
+                    },
+                    {
+                        "href":"http://webscraper.io/test-sites/e-commerce/allinone/computers/tablets",
+                        "ItemContainer":"div.thumbnail",
+                        "Item": 
+                        {
+                            "Name":"a.title::text",
+                            "Price":"h4.pull-right.price::text"
+                        },
+                        "Repeat":"No"
+                    }
+                ]
+}
